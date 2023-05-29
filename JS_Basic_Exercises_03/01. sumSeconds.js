@@ -3,15 +3,15 @@ function solve(input) {
     let second = Number(input[1]);
     let third = Number(input[2]);
 
-    let totalSecundes = first + second + third;
+    let totalSecondes = first + second + third;
 
-    let minutes = Math.floor(totalSecundes / 60);
-    let secundes = totalSecundes % 60;
+    let minutes = Math.floor(totalSecondes / 60);
+    let secondes = totalSecondes % 60;
 
-    if (secundes < 10) {
-        console.log(`${minutes}:0${secundes}`);
+    if (secondes < 10) {
+        console.log(`${minutes}:0${secondes}`);
     } else {
-        console.log(`${minutes}:${secundes}`);
+        console.log(`${minutes}:${secondes}`);
     }
 }
 
